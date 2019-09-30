@@ -2,7 +2,7 @@ require "solidus_refinery_authentication/authorisation_manager"
 
 module SolidusAuthenticationActionControllerBaseDecoration
   def self.prepended(base)
-    base.prepend_before_action :detect_solidusfinery_single_sign_on!
+    base.prepend_before_action :detect_solidusfinery_single_sign_on
   end
 
   protected
@@ -15,7 +15,7 @@ module SolidusAuthenticationActionControllerBaseDecoration
     @refinery_authorisation_manager ||= SolidusRefineryAuthentication::AuthorisationManager.new
   end
 
-  def detect_solidusfinery_single_sign_on!
+  def detect_solidusfinery_single_sign_on
     if current_spree_user
       refinery_authorisation_manager.set_user!(current_spree_user)
     end

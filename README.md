@@ -1,10 +1,10 @@
 # Solidus Refinery CMS Authentication
 
-[![Build Status](https://travis-ci.org/refinerycms-contrib/solidus-refinery-authentication.svg?branch=master)](https://travis-ci.org/refinerycms-contrib/solidus-refinery-authentication) [![Code Climate](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication/badges/gpa.svg)](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication) [![Test Coverage](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication/badges/coverage.svg)](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication/coverage)
+[![Build Status](https://travis-ci.org/refinerycms-contrib/solidus-refinery-authentication.svg?branch=master)](https://travis-ci.org/refinerycms-contrib/solidus-refinery-authentication) <!-- [![Code Climate](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication/badges/gpa.svg)](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication) [![Test Coverage](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication/badges/coverage.svg)](https://codeclimate.com/github/refinerycms-contrib/solidus-refinery-authentication/coverage) -->
 
 This gem is a Refinery CMS and Solidus E-commerce connector.
 
-**THIS EXTENSION IS A WORKING PROGRESS BASED ON spree-refinerycms-authentication GEM.**
+**This extension is a WORK IN PROGRESS based on the spree-refinerycms-authentication GEM.**
 
 ## Key features
 

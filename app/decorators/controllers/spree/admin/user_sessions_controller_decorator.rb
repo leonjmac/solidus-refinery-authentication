@@ -1,6 +1,6 @@
 Spree::Admin::UserSessionsController.class_eval do
-  skip_before_action :detect_solidusfinery_single_sign_on!, only: [:create]
-  after_action :detect_solidusfinery_single_sign_on!, only: [:create]
+  skip_before_action :detect_solidusfinery_single_sign_on, only: [:create], raise: false
+  after_action :detect_solidusfinery_single_sign_on, only: [:create], raise: false
 
   private
   # This overrides what Solidus defines, so that we can get back to Refinery.
