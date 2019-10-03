@@ -3,5 +3,5 @@ Deface::Override.new(
   name: 'refinerycms_logout_link',
   original: 'bec20f7641ef24054a38147aeb37f08d31bdd79f',
   insert_bottom: '#site_bar_branding',
-  text: "<%= link_to I18n.t(:logout), spree.logout_path, :id => 'logout' if spree.logout_path.present? %>"
+  text: "<%= link_to I18n.t(:logout), spree.admin_logout_path, :id => 'logout' if spree.logout_path.present? %>"
 )
