@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = "solidus-refinerycms-authentication"
-  s.version       = "1.0.1"
+  s.version       = "1.0.2"
   s.authors       = ["Brice Sanchez", "Philip Arndt", "Leon McLeggan"]
   s.description   = "A Refinery CMS and Solidus connector"
   s.summary       = "Solidus has a pluggable authentication system. This will tell Refinery CMS to use Solidus user model and authentication."
